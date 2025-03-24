@@ -124,7 +124,16 @@ main {
     border: 1px solid #F52E2E;
 }
 
-.conteudo .formulario .form .campo-obrigatorio {
+.campo-obrigatorio {
     visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.campo-obrigatorio.ativo {
+    visibility: visible;
+    opacity: 1;
+    color: red;
+    font-size: 0.8rem;
 }
 
