@@ -6,6 +6,8 @@ body {
 
 html {
     background-color: #e5e5e5;
+    background-image: url(../images/background.png);
+    background-size: contain;
 }
 
 main {
@@ -16,8 +18,6 @@ main {
 }
 
 .conteudo {
-    background-image: url(../images/background.png);
-    background-size: contain;
     width: 800px;
     height: 402px;
     align-items: center;
